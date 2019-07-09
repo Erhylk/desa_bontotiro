@@ -1,0 +1,5 @@
+<?php
+
+// tema Ndeso
+
+?>
