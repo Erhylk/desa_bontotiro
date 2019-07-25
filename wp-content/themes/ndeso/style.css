@@ -465,7 +465,7 @@ body {
 
 .slide .post h2,
 .slide .post h2 a {
-    color: #0f6aa4;
+    color: #005500 /*#0f6aa4*/;
     font: 700 20px/1.1 'Open Sans';
     text-transform: uppercase;
     text-decoration: none;
@@ -514,12 +514,12 @@ body {
 }
 
 #larr {
-    background: #0f6aa4 url("images/larr.png") no-repeat center;
+    background: #2abf09 url("images/larr.png") no-repeat center;
     right: 160px !important;
 }
 
 #rarr {
-    background: #0f6aa4 url("images/rarr.png") no-repeat center;
+    background: #2abf09 url("images/rarr.png") no-repeat center;
     right: 120px !important;
 }
 
@@ -618,7 +618,7 @@ body {
 }
 
 .slide-inforight span {
-    color: #0f6aa4;
+    color: #005500 /*#0f6aa4*/;
     font-weight: 300;
     font-size: 12px;
     text-transform: uppercase;
@@ -708,7 +708,7 @@ body {
 
 .list .post h2,
 .list .post h2 a {
-    color: #0f6aa4;
+    color: #29b40a;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -883,7 +883,7 @@ body {
 }
 
 .contents .post-meta h1 {
-    color: #0f6aa4;
+    color: #005500 /*#0f6aa4*/;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1456,7 +1456,7 @@ body {
 #submit {
     float: left;
     border: none;
-    background: #0f6aa4;
+    background: #005500;
     color: #fff;
     font: bold 14px 'Open Sans', sans-serif;
     cursor: pointer;
@@ -1553,7 +1553,7 @@ ul.newstickers span {
     padding: 10px;
     font: bold 18px 'Open Sans';
     margin: 0 0 -1px;
-    color: #0f6aa4;
+    color: #005500 /*#0f6aa4*/;
     border: 1px solid #eee;
 }
 
@@ -1643,7 +1643,7 @@ ul.newstickers span {
     padding: 10px;
     margin: 0 -10px;
     font: bold 18px 'Open Sans';
-    color: #0f6aa4;
+    color: #005500 /*#0f6aa4*/;
     border-bottom: 1px solid #eee;
     text-transform: uppercase;
 }

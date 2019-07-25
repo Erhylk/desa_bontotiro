@@ -1,6 +1,6 @@
 <div class="sidebar">
                 
-		    	<div id="googleMap" style="width:100%; height:220px;"></div>
+		    	<iframe width="100%" height="220" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJr6a9WFmyvi0RlLvPQTWLuTU&key=AIzaSyCbQI7v2nNuBP6xzBywvgoU8Jg9UZFfExU" allowfullscreen></iframe>
 				<div class="nopadd">
 	    			<div class="pro">
 				    <?php echo (get_option('alamat')) ? get_option('alamat').'<br/>' : 'Alamat kantor desa / kelurahan belum di atur<br/>' ?>

@@ -35,41 +35,6 @@
 				});
 			});
 		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo (get_option('apikey')) ? get_option('apikey').'' : '' ?>&#038;callback=initMap" type="text/javascript"></script>
-<script>
-
-var myCenter=new google.maps.LatLng(<?php echo (get_option('maps')) ? get_option('maps').'' : '-5.932330,105.992419' ?>);
-
-function initialize() {
-
-	var mapProp = {
-
-  		center:myCenter,
-
-	  zoom:15,
-
-	  mapTypeId:google.maps.MapTypeId.ROADMAP
-
-  };
-
-	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-	var marker=new google.maps.Marker({
-
-  		position:myCenter,
-
-  		title: 'Click to zoom',
-		
-		icon:"<?php echo get_template_directory_uri(); ?>/images/maps.png"
-
-	});
-
-	marker.setMap(map);
-
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
 </script>
 		
 	</head>
